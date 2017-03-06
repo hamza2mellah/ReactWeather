@@ -3,7 +3,7 @@ var React=require('react');
 var Nav=(props)=>{
 	return(
 		  <div>			  	
-	            <h1>welcome to flexi apps /</h1>
+	            <h1>welcome to flexi /</h1>
 		  </div>
 		)
 }
