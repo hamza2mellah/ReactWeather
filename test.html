@@ -1,0 +1,19 @@
+
+	      function getPromise(location){
+	       return new Promise(function(resolve,reject){
+            /* setTimeout(function(){
+
+             },1000)*/
+             resolve(70);
+             reject('city not found');
+	       })
+	      };
+	      getPromise('casa').then(function(temp){
+	      
+	      console.log('temp',temp);
+
+	      },function(err){
+	      console.log('err',err)
+	      })
+
+	
