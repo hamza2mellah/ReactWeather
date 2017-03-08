@@ -12,10 +12,10 @@ var WeatherForm=React.createClass({
    },
 	render:function(){
 		return(
-         <div>
+         <div className='row'>
          	<form onSubmit={this.handle}>
          		<input type='text' ref='city'/>
-         		<button>Click</button>
+         		<button className='button expanded'>Click</button>
          	</form>
          </div>
 		)
